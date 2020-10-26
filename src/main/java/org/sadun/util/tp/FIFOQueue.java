@@ -1,5 +1,10 @@
 package org.sadun.util.tp;
-
+/**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
+ * @author Cristiano Sadun
+ *
+ */
 class FIFOQueue implements Queue {
 
     private com.deltax.util.FIFOQueue q = new com.deltax.util.FIFOQueue();

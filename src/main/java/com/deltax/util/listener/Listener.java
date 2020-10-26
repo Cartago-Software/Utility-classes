@@ -1,10 +1,12 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * Classes implementing this interface can receive signals notified via a 
  * {@link com.deltax.util.listener.ListenerSupport}.
  *
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public interface Listener {

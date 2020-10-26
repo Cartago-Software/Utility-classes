@@ -7,11 +7,13 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * An exception thrown when the {@link com.deltax.util.listener.ListenerSupport} cannot
  * terminate gracefully a listener which is being {@link com.deltax.util.listener.ListenerSupport#removeListener(Listener) 
  * removed}, since the listener is blocked.
  * 
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public class BlockedListenerException extends RuntimeException {

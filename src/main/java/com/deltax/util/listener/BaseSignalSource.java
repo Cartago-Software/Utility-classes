@@ -1,10 +1,12 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A base implementation of SignalSource. The {@link #notify(Signal)} and {@link #notifyException(ExceptionSignal)} methods
  * are protected.  
  *
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public abstract class BaseSignalSource implements SignalSource {

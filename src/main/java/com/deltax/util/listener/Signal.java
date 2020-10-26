@@ -1,11 +1,13 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * An anonymous signal class. This class doesn't carry any other information but the 
  * source of the signal, and can say wether or not the source supports {@link ExceptionSignal 
  * exception signals}.
  *
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public class Signal {

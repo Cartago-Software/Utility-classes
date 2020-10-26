@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A simple FIFO queue.
  *
  * @author Cris Sadun

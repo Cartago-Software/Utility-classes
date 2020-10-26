@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
  * An utility class to compute normalized paths (i.e. paths that do not contain
  * neither "." nor "..")
  * <p>

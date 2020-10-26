@@ -1,6 +1,8 @@
 package org.sadun.util.tp;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A simple queue interface for Runnable objects.
  * <p>
  * This queue may decide the order with which a certain Runnable object

@@ -1,6 +1,7 @@
 package org.sadun.util;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
  * This interface extends the standard Runnable by providing
  * methods to gracefully shut down a Thread.
  *

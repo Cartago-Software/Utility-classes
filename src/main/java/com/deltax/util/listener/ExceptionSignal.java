@@ -1,10 +1,11 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A signal carrying an exception.
  * 
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano
- *         Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public class ExceptionSignal extends Signal {

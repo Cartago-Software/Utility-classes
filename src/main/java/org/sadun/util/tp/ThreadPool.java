@@ -2,6 +2,8 @@ package org.sadun.util.tp;
 
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A thread pooling class. Ensures that no more than <i>n</i> thread are alive
  * at the same time, while queueing incoming requests.
  * <p>

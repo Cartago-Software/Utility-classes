@@ -5,7 +5,11 @@ import java.util.List;
 
 import com.deltax.util.FIFOQueue;
 import com.deltax.util.QueueEmptyException;
-
+/**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * @author Cristiano Sadun
+ *
+ */
 class SignalQueue extends Thread implements Listener {
 
 	private FIFOQueue queue;

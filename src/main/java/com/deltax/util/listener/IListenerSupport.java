@@ -7,6 +7,8 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * An interface for the {@link ListenerSupport} class (experimental).
  *
  * @author Cristiano Sadun

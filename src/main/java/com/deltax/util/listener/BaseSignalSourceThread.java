@@ -1,9 +1,11 @@
 package com.deltax.util.listener;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A base implementation of signal source, which is a thread in itself.
  *
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public abstract class BaseSignalSourceThread extends Thread {

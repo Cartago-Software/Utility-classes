@@ -2,6 +2,8 @@ package org.sadun.util.tp;
 
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * A thread which acts as a pool for
  * other threads. Its run methods simply waits if there aren't
  * runnable start requests.

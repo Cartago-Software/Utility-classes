@@ -10,6 +10,8 @@ import java.util.Set;
 import org.sadun.util.tp.ThreadPool;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
+ * 
  * <b>This class is the pluggable support for asynchronous listening.</b>
  * <p>
  * It exposes registration methods for
@@ -17,8 +19,7 @@ import org.sadun.util.tp.ThreadPool;
  * {@link #notify(Signal)} method to be called to actually send signals.
  * <p>
  * It also allows to enable or disable a specific listener.
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano
- *         Sadun</a>
+ * @author Cristiano Sadun
  * @version 3.0
  */
 public class ListenerSupport implements IListenerSupport {

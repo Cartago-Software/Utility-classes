@@ -3,10 +3,10 @@ package com.deltax.util.listener;
 import java.util.Date;
 
 /**
+ * Copyright (C) 1999,2004 dr. Cristiano Sadun
  * A signal with a time stamp.
  * 
- * @author <a href="mailto:cristianosadunTAKETHISAWAY@hotmail.com">Cristiano
- *         Sadun</a>
+ * @author Cristiano Sadun
  * @version 1.0
  */
 public class TimeStampedSignal extends Signal {
