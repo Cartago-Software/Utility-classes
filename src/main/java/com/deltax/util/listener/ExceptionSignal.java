@@ -15,8 +15,8 @@ public class ExceptionSignal extends Signal {
 	/**
 	 * Create a signal carrying the given exception from the given source
 	 * 
-	 * @param exception
-	 * @param obj
+	 * @param exception the exception thrown
+	 * @param source the source to be notified
 	 */
 	public ExceptionSignal(Exception exception, Object source) {
 		super(source);

@@ -21,7 +21,7 @@ public interface Queue {
 
     /**
      * Fetch a runnable object from the queue
-     * @param obj the runnable to be fetched from o the queue
+     * @return Runnable object
      */
     public Runnable get();
 

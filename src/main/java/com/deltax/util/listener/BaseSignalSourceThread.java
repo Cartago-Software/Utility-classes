@@ -77,6 +77,7 @@ public abstract class BaseSignalSourceThread extends Thread {
     
     /**
      * Retrieve an array with the currently registered listeners
+     *  @return Listener as array
      */
     public Listener [] getListeners() { 
             return bs.getListeners();

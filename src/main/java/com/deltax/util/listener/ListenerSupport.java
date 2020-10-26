@@ -47,6 +47,7 @@ public class ListenerSupport implements IListenerSupport {
 
 	/**
 	 * Create a listener support which uses at most the given number of threads
+	 * @param maxThreads the maximum number of threads.
 	 */
 	public ListenerSupport(int maxThreads) {
 		lock = new Object();

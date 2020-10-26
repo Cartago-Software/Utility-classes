@@ -49,6 +49,7 @@ public interface IListenerSupport {
 	
 	/**
 	 * Broadcast a signal. The order of invocation is unspecified.
+	 * @param signal the Signal object
 	 */
 	public void notify(Signal signal);
 	

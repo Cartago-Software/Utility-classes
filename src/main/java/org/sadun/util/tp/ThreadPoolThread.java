@@ -66,7 +66,7 @@ public class ThreadPoolThread extends Thread implements org.sadun.util.Terminabl
      * and started. Else, it is queued, and will run as soon as one thread becomes
      * available.
      * @param runnable the Runnable object to execute
-     * @return <b>true</b> if the runnable is started, </b>false</b> if it's queued.
+     * @return true if the runnable is started, false if it's queued.
      */
     public boolean start(Runnable runnable) {
         return tp.start(runnable);

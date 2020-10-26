@@ -174,7 +174,7 @@ public class ThreadPool {
      * specified and removed from the pool, but it will continue running  until its natural 
      * termination until the executing code doesn't explicitly handle the interruption.
      *   
-     * @param newSize
+     * @param newSize the new size of the thread pool
      * @param interrupt determines wether or not to invoke interrupt() on busy thread if necessary.
      */
     public void resize(int newSize, boolean interrupt) {
@@ -201,7 +201,7 @@ public class ThreadPool {
      * and started. Else, it is queued, and will run as soon as one thread becomes
      * available.
      * @param runnable the Runnable object to execute
-     * @return <b>true</b> if the runnable is started, </b>false</b> if it's queued.
+     * @return true if the runnable is started, false if it's queued.
      */
     public boolean start(Runnable runnable) {
     	return start(runnable, false);
@@ -215,7 +215,7 @@ public class ThreadPool {
      * available.
      * @param runnable the Runnable object to execute
      * @param failIfNoFree if <code>true</code>, returns false without queuing the request
-     * @return <b>true</b> if the runnable is started, </b>false</b> if it's not started.
+     * @return true if the runnable is started, false if it's not started.
      */
     public boolean start(Runnable runnable, boolean failIfNoFree) {
         for(int i=0;i<size();i++) {
@@ -234,6 +234,7 @@ public class ThreadPool {
 
     /**
      * Return <b>true</b> if the Runnable is associated with any pooled thread.
+     * @param r as a Runnable
      * @return <b>true</b> if the Runnable is associated with any pooled thread.
      */
     public synchronized boolean isAlive(Runnable r) {

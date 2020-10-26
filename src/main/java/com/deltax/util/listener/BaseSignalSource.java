@@ -54,7 +54,7 @@ public abstract class BaseSignalSource implements SignalSource {
 	/**
 	 * Notify a {@link ExceptionSignal exception signal} to the listners.
 	 * 
-	 * @param signal the signal to be notified.
+	 * @param exceptionsignal the signal to be notified.
 	 */
 	protected void notifyException(ExceptionSignal exceptionsignal) {
 		ls.notify(exceptionsignal);
@@ -70,6 +70,7 @@ public abstract class BaseSignalSource implements SignalSource {
     
     /**
      * Retrieve an array with the currently registered listeners
+     * @return Listener as array
      */
     public Listener [] getListeners() { 
             return ls.getListeners();

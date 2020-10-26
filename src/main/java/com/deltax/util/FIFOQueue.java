@@ -143,15 +143,16 @@ public class FIFOQueue {
     }
 
     /**
-     * Return <b>true</b> if the queue is empty.
-     * @return <b>true</b> if the queue is empty
+     * Return true if the queue is empty.
+     * @return true if the queue is empty
      */
     public boolean isEmpty() {
         return v.size() == 0;
     }
 
     /**
-     * Return the size of the queue
+     * @return the size of the queue
+     * 
      */
     public int size() { return v.size(); }
 
